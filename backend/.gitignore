@@ -1,0 +1,131 @@
+# Node.js
+# ===============================
+# Node.js production dependencies
+/node_modules
+/npm-debug.log
+.npm/
+
+# Yarn production dependencies
+/yarn-error.log
+.yarn/
+/.pnp.*
+.pnp.cjs
+
+# Dependency lock files (uncomment if you only use one package manager)
+# package-lock.json
+# yarn.lock
+
+# Environments
+.env
+.env.development
+.env.test
+.env.production
+.env.*.local
+.env.local
+
+# Builds
+/dist
+/build
+/out
+/es
+/lib
+/tmp
+/temp
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# OS/IDE specific files
+.DS_Store             # macOS
+.vscode/              # VS Code (settings, launch configs, etc.)
+.idea/                # IntelliJ IDEA / WebStorm
+.project              # Eclipse
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+Thumbs.db             # Windows
+ehthumbs.db
+.spotlight-V100       # macOS
+.Trashes              # macOS
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Test coverage results
+/coverage
+
+#nyc test coverage
+.nyc_output
+
+# Jest coverage/cache
+/.jest/
+/.cache/
+/jest.config.js.snap
+
+# Storybook
+.storybook/out
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# SvelteKit
+.svelte-kit/
+/.svelte-kit-cache/
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Gatsby
+.cache/
+public/
+
+# Rollup
+/rollup.config.js.map
+
+# Webpack
+/webpack.config.js.map
+
+# Vue.js
+.vuepress/dist
+
+# Other build tools
+.parcel-cache/
+.eslintcache
+
+# Dependency directories for various package managers
+# If you use pnpm, you might want to uncomment these
+# .pnpm-store/
+# .pnpm-lock.yaml
+
+# Example if you're using a specific database that leaves files
+*.sqlite
+*.db
+
+# Docker
+.dockerignore
+
+# Netlify/Vercel
+.netlify/
+.vercel/
+
+# GitHub specific files (e.g. for GitHub Actions)
+.github/
+
+# Optional: If you commit `package-lock.json` or `yarn.lock`
+# to ensure consistent installs across environments, leave them out of .gitignore.
+# If you manage dependencies manually or have a monorepo setup where locks are central,
+# you might include them. For typical projects, it's common to commit one of them.
